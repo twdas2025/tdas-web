@@ -49,6 +49,20 @@ header{background:rgba(5,9,20,0.8);backdrop-filter:blur(10px);border-bottom:1px 
 .list-role{color:var(--primary-cyan);font-weight:bold;width:80px;font-size:0.9em;}
 .list-name{color:var(--text-title);font-size:1.3em;font-weight:bold;}
 .list-right{text-align:right;color:var(--text-main);font-size:1em;flex:2;}
+/* 首頁中間 Logo 的樣式 */
+.hero-logo {
+    width: 180px;         /* 根據您的喜好調整大小 */
+    height: auto;
+    margin-bottom: 25px;
+    /* 加入一點發光效果，延續網頁的科技風格 */
+    filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.4));
+    transition: transform 0.5s ease;
+}
+
+.hero-logo:hover {
+    /* 滑鼠移上去時有微動感 */
+    transform: scale(1.05);
+}
 .btn{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--primary-cyan);border:1px solid var(--primary-cyan);padding:12px 25px;border-radius:8px;margin-right:15px;margin-bottom:15px;font-weight:bold;font-size:1.05em;box-shadow:0 0 10px rgba(0,229,255,0.1) inset;}
 .btn:hover{background:var(--primary-cyan);color:#000;box-shadow:0 0 20px rgba(0,229,255,0.5);}
 @media(max-width:900px){header{flex-direction:column;padding:20px;}.nav-links{margin-top:20px;flex-wrap:wrap;justify-content:center;}.hero h1{font-size:3em;}.list-row{flex-direction:column;align-items:flex-start;gap:10px;}.list-right{text-align:left;margin-left:100px;}.text-card{padding:30px;}}
@@ -68,7 +82,7 @@ header{background:rgba(5,9,20,0.8);backdrop-filter:blur(10px);border-bottom:1px 
 </header>
 
 <div class="hero">
-    <i class="fa-solid fa-microchip" style="font-size: 4em; color: rgba(0, 229, 255, 0.8); margin-bottom: 20px; text-shadow: 0 0 30px var(--primary-cyan);"></i>
+    <img src="logo.png" alt="TDAS Logo" class="hero-logo">
     <h1>台灣數據與 AI 學會</h1>
     <p>Taiwan Data and AI Society (TDAS)</p>
 </div>
