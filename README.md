@@ -103,7 +103,7 @@ header{background:rgba(5,9,20,0.8);backdrop-filter:blur(10px);border-bottom:1px 
             <div class="list-row"><div class="list-left"><img src="3.jpg" alt="游寶達" class="list-photo"<span class="list-role">名譽理事</span><span class="list-name">游寶達</span></div><div class="list-right">中正大學資訊工程研究所教授 / 美國普渡大學電機工程博士</div></div>
             <div class="list-row"><div class="list-left"><img src="4.jpg" alt="施因澤" class="list-photo"><span class="list-role">理事長</span><span class="list-name">施因澤</span></div><div class="list-right">中興大學應用數學系教授 / 美國馬蘭大學博士</div></div>
             <div class="list-row"><div class="list-left"><img src="5.jpg" alt="蒙以亨" class="list-photo"><span class="list-role">副理事長</span><span class="list-name">蒙以亨</span></div><div class="list-right">資策會軟體技術研究院院長 / 交通大學博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="6.jpg" alt="江孟峰" class="list-photo"<span class="list-role">副理事長</span><span class="list-name">江孟峰</span></div><div class="list-right">亦思科技股份有限公司執行長 / 交通大學博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="6.jpg" alt="江孟峰" class="list-photo"><span class="list-role">副理事長</span><span class="list-name">江孟峰</span></div><div class="list-right">亦思科技股份有限公司執行長 / 交通大學博士</div></div>
         </div>
         <div class="board-group">
             <div class="board-group-title">常務理監事</div>
