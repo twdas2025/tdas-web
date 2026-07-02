@@ -47,7 +47,10 @@ header{background:rgba(5,9,20,0.8);backdrop-filter:blur(10px);border-bottom:1px 
 .list-row:hover{background:rgba(0,229,255,0.05);}
 .list-left{display:flex;align-items:center;gap:20px;flex:1;}
 .list-role{color:var(--primary-cyan);font-weight:bold;width:80px;font-size:0.9em;}
+/* 中文+英文姓名 */
+.list-name-box{display:flex;flex-direction:column;line-height:1.2;}   
 .list-name{color:var(--text-title);font-size:1.3em;font-weight:bold;}
+.list-name-en{color:#9fb3c8;font-size:0.72em;font-weight:400;margin-top:3px;letter-spacing:0.5px;}
 .list-right{text-align:right;color:var(--text-main);font-size:1em;flex:2;}
 .btn{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--primary-cyan);border:1px solid var(--primary-cyan);padding:12px 25px;border-radius:8px;margin-right:15px;margin-bottom:15px;font-weight:bold;font-size:1.05em;box-shadow:0 0 10px rgba(0,229,255,0.1) inset;}
 .btn:hover{background:var(--primary-cyan);color:#000;box-shadow:0 0 20px rgba(0,229,255,0.5);}
@@ -98,12 +101,18 @@ header{background:rgba(5,9,20,0.8);backdrop-filter:blur(10px);border-bottom:1px 
     <div class="text-card">
         <div class="board-group">
             <div class="board-group-title">榮譽與核心領導</div>
-            <div class="list-row"><div class="list-left"><img src="1.jpg" alt="林見昌" class="list-photo"><span class="list-role">名譽理事</span><span class="list-name">林見昌</span></div><div class="list-right">虎尾科技大學校長 / 美國喬治亞理工學院博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="2.jpg" alt="廖弘源" class="list-photo"><span class="list-role">名譽理事</span><span class="list-name">廖弘源</span></div><div class="list-right">中央研究院資訊科學研究所所長 / 美國西北大學博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="3.jpg" alt="游寶達" class="list-photo"<span class="list-role">名譽理事</span><span class="list-name">游寶達</span></div><div class="list-right">中正大學資訊工程研究所教授 / 美國普渡大學電機工程博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="4.jpg" alt="施因澤" class="list-photo"><span class="list-role">理事長</span><span class="list-name">施因澤</span></div><div class="list-right">中興大學應用數學系教授 / 美國馬蘭大學博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="5.jpg" alt="蒙以亨" class="list-photo"><span class="list-role">副理事長</span><span class="list-name">蒙以亨</span></div><div class="list-right">資策會軟體技術研究院院長 / 交通大學博士</div></div>
-            <div class="list-row"><div class="list-left"><img src="6.jpg" alt="江孟峰" class="list-photo"<span class="list-role">副理事長</span><span class="list-name">江孟峰</span></div><div class="list-right">亦思科技股份有限公司執行長 / 交通大學博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="1.jpg" alt="林見昌" class="list-photo"><span class="list-role">名譽理事</span><div class="list-name-box"><span class="list-name">林見昌</span>
+            <span class="list-name-en">Chien-Chang Lin</span></div></div><div class="list-right">虎尾科技大學校長 / 美國喬治亞理工學院博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="2.jpg" alt="廖弘源" class="list-photo"><span class="list-role">名譽理事</span><div class="list-name-box"><span class="list-name">廖弘源</span>
+            <span class="list-name-en">Hong-Yuan Mark Liao</span></div></div><div class="list-right">中央研究院資訊科學研究所所長 / 美國西北大學博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="3.jpg" alt="游寶達" class="list-photo"<span class="list-role">名譽理事</span><div class="list-name-box"><span class="list-name">游寶達</span>
+            <span class="list-name-en">Pao-Ta Yu</span></div></div><div class="list-right">中正大學資訊工程研究所教授 / 美國普渡大學電機工程博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="4.jpg" alt="施因澤" class="list-photo"><span class="list-role">理事長</span><div class="list-name-box"><span class="list-name">施因澤</span>
+            <span class="list-name-en">Yin-Tzer Shih</span></div></div><div class="list-right">中興大學應用數學系教授 / 美國馬蘭大學博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="5.jpg" alt="蒙以亨" class="list-photo"><span class="list-role">副理事長</span><div class="list-name-box"><span class="list-name">蒙以亨</span>
+            <span class="list-name-en">I-Heng Meng</span></div></div><div class="list-right">資策會軟體技術研究院院長 / 交通大學博士</div></div>
+            <div class="list-row"><div class="list-left"><img src="6.jpg" alt="江孟峰" class="list-photo"<span class="list-role">副理事長</span><div class="list-name-box"><span class="list-name">江孟峰</span>
+            <span class="list-name-en">Mon-Fong Jiang</span></div></div><div class="list-right">亦思科技股份有限公司執行長 / 交通大學博士</div></div>
         </div>
         <div class="board-group">
             <div class="board-group-title">常務理監事</div>
